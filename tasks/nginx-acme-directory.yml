@@ -1,0 +1,8 @@
+---
+- name: Create directory for ACME challenges to be written and served from
+  file:
+    path: "{{ nginx_acme_root_directory }}"
+    state: directory
+    owner: "{{ nginx_acme_challenge_user }}"
+    group: "{{ nginx_acme_challenge_group }}"
+    mode: 0750

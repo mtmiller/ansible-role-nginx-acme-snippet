@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Mike Miller
+  description: Install an Nginx configuration snippet to allow ACME challenges
+  license: MIT
+  min_ansible_version: 1.2
+  galaxy_tags:
+    - letsencrypt
+    - nginx
+    - web
+dependencies: []

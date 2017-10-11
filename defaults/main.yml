@@ -1,0 +1,12 @@
+---
+# Directory to write ACME challenges for requesting Let's Encrypt certificates
+nginx_acme_root_directory: "/var/lib/acme-challenges"
+
+# User that will be running certbot or other ACME tool
+nginx_acme_challenge_user: "root"
+
+# Group permission to grant read access to ACME challenges to
+nginx_acme_challenge_group: "www-data"
+
+# Directory containing Nginx configuration snippet files to be included
+nginx_snippet_path: "/etc/nginx/snippets"

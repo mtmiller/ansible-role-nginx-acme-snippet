@@ -1,0 +1,16 @@
+---
+- name: Ensure nginx_snippet_path exists
+  file:
+    path: "{{ nginx_snippet_path }}"
+    state: directory
+    owner: root
+    group: root
+    mode: 0755
+
+- name: Install Nginx configuration snippet for ACME protocol
+  template:
+    src: nginx-acme-snippet.conf.j2
+    dest: "{{ nginx_acme_snippet }}"
+    owner: root
+    group: root
+    mode: 0644

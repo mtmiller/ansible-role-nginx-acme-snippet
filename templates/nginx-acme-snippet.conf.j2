@@ -1,0 +1,4 @@
+location /.well-known/acme-challenge/ {
+    alias {{ nginx_acme_root_directory }}/.well-known/acme-challenge/;
+    try_files $uri =404;
+}

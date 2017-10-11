@@ -1,0 +1,2 @@
+---
+nginx_acme_snippet: "{{ nginx_snippet_path }}/nginx-acme-challenge.conf"
