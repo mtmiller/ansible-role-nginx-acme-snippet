@@ -1,5 +1,8 @@
 # Ansible Nginx ACME Protocol Configuration
 
+[![Build Status](https://travis-ci.org/mtmiller/ansible-role-nginx-acme-snippet.svg?branch=master)](https://travis-ci.org/mtmiller/ansible-role-nginx-acme-snippet)
+[![Ansible Role](https://img.shields.io/ansible/role/21109.svg)](https://galaxy.ansible.com/mtmiller/nginx-acme-snippet)
+
 This is a very simple Ansible role that installs an Nginx configuration
 snippet to enable the ACME protocol for any virtual host.
 
